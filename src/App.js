@@ -13,7 +13,9 @@ class App extends Component {
         <p className="App-intro">
           Docker, Kubernetes, React for f2-frontend <code>src/App.js</code> and save to reload.
           with -v /apps/node_modules -v $(pwd): /apps, and also working on docker-compose.yml
+
         </p>
+        <p> Changed git to feature branch </p>
       </div>
     );
   }
