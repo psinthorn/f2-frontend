@@ -8,7 +8,7 @@ script:
   - docker run psinthorn/f2-frontend npm run test -- --coverage
 
 deploy:
-  provider: elastickbeanstalk
+  provider: elasticbeanstalk
   region: "us-east-1"
   app: "f2-frontend"
   env: "F2Frontend-env"
